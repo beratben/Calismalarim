@@ -1,0 +1,44 @@
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main()
+{
+	setlocale(LC_ALL, "Turkish");
+	int sicaklık;
+
+		cout << "Lütfen Sıcaklık Değerini Giriniz : \n";
+		cin >> sicaklık;
+		
+
+	    
+
+		
+
+			if (sicaklık >= 100)
+			{
+		
+			cout << "Çok Yüksek Sıcaklık !!!\n";
+
+
+			 }
+
+			else if (sicaklık <=30)
+
+			{
+
+				cout << "Ortamın Sıcaklığı azdır. \n";
+			}
+			else if (sicaklık >= 31)
+		    {
+
+					cout << "Ortam sıcaklığı fazladır. \n";
+
+		     }
+			
+			
+            
+
+	return 0;
+}
